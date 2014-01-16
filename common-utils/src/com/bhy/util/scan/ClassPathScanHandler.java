@@ -287,10 +287,8 @@ public class ClassPathScanHandler {
 		ClassPathScanHandler handler = new ClassPathScanHandler(true, true,
 				classFilters);
 
-		System.out
-				.println("开始递归扫描jar文件的包：org.apache.commons.io 下符合自定义过滤规则的类...");
-		Set<Class<?>> calssList = handler
-				.getPackageAllClasses("com.test", true);
+		System.out.println("开始递归扫描jar文件的包：org.apache.commons.io 下符合自定义过滤规则的类...");
+		Set<Class<?>> calssList = handler.getPackageAllClasses("com.bhy", true);
 		for (Class<?> cla : calssList) {
 			System.out.println(cla.getName());
 		}
