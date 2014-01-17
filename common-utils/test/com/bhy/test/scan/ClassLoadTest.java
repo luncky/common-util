@@ -1,4 +1,4 @@
-package com.bhy.util.scan;
+package com.bhy.test.scan;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -7,7 +7,7 @@ import java.net.URL;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class classLoadTest {
+public class ClassLoadTest {
 	
 	
 	private static ClassLoader classLoader;
