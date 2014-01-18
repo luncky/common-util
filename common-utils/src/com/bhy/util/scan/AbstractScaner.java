@@ -109,4 +109,7 @@ public class AbstractScaner {
 		return filePath.replace(File.separator, ".").replace("/", ".");
 		
 	}
+	
+	
+	
 }
